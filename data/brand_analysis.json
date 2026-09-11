@@ -1,0 +1,146 @@
+[
+  {
+    "brand": "AmazonHelp",
+    "total_outbound_tweets": 169840,
+    "substantive_replies": 169641,
+    "dm_redirect_replies": 199,
+    "substantive_ratio": 0.999,
+    "samples": [
+      "@115770 \u3053\u3093\u306b\u3061\u306f\u3001\u30a2\u30de\u30be\u30f3\u516c\u5f0f\u3067\u3059\u3002Fire TV Stick\u304c\u898b\u308c\u306a\u3044\u3068\u3044\u3046\u306e\u306f\u3001\u3069\u306e\u3088\u3046\u306a\u72b6\u6cc1\u3067\u3057\u3087\u3046\u304b\u3002\u4e00\u822c\u7684\u306a\u30c8\u30e9\u30d6\u30eb\u30b7\u30e5\u30fc\u30c6\u30a3\u30f3\u30b0\u3092\u8a18\u8f09\u3057\u305f\u30d8\u30eb\u30d7\u304c\u3054\u3056\u3044\u307e\u3059\u306e\u3067\u3001\u3054\u53c2\u7167\u304f\u3060\u3055\u3044\u3002https://t.co/2pbG55qJ7h ET",
+      "@115770 \u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9\u306b\u3066\u304a\u554f\u3044\u5408\u308f\u305b\u6e08\u307f\u3068\u306e\u3053\u3068\u3067\u3001\u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3044\u305f\u3057\u307e\u3057\u305f\u3002\u30ea\u30d7\u30e9\u30a4\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002ET",
+      "@115770 \u6050\u308c\u5165\u308a\u307e\u3059\u3002\u81f3\u3089\u306a\u3044\u70b9\u3082\u591a\u3005\u3042\u308b\u304b\u3068\u306f\u5b58\u3058\u307e\u3059\u304c\u3001\u4eca\u5f8c\u3068\u3082\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3057\u307e\u3059\u3002ET"
+    ]
+  },
+  {
+    "brand": "AppleSupport",
+    "total_outbound_tweets": 106860,
+    "substantive_replies": 74611,
+    "dm_redirect_replies": 32249,
+    "substantive_ratio": 0.698,
+    "samples": [
+      "@115854 We're here for you. Which version of the iOS are you running? Check from Settings &gt; General &gt; About.",
+      "@115854 Lets take a closer look into this issue. Select the following link to join us in a DM and we'll go from there. https://t.co/GDrqU22YpT",
+      "@115855 Let's go to DM for the next steps. DM us here: https://t.co/GDrqU22YpT"
+    ]
+  },
+  {
+    "brand": "Uber_Support",
+    "total_outbound_tweets": 56270,
+    "substantive_replies": 41257,
+    "dm_redirect_replies": 15013,
+    "substantive_ratio": 0.733,
+    "samples": [
+      "@115872 Happy to follow up! Contact us via https://t.co/1xM0TILvAI so we can connect.",
+      "@115872 We apologize for the trouble! Send us a DM with your email address and we'll connect.",
+      "@115874 We're here to help! Send us a note here, https://t.co/WFtPA6RjWt and our team will be in touch."
+    ]
+  },
+  {
+    "brand": "SpotifyCares",
+    "total_outbound_tweets": 43265,
+    "substantive_replies": 33486,
+    "dm_redirect_replies": 9779,
+    "substantive_ratio": 0.774,
+    "samples": [
+      "@115887 Hmm. Can you try restarting your device by holding the Sleep/Wake + Volume Down buttons for 10 seconds? Keep us posted /LS",
+      "@115887 Could you send us a DM with your account's email address? We'll take a look backstage /CH https://t.co/ldFdZRiNAt",
+      "@115887 Thanks. Just to be sure, are you Free or Premium? Also, can you give us more info on what happens when you try using it? /CB"
+    ]
+  },
+  {
+    "brand": "Delta",
+    "total_outbound_tweets": 42253,
+    "substantive_replies": 41631,
+    "dm_redirect_replies": 622,
+    "substantive_ratio": 0.985,
+    "samples": [
+      "@115818 Glad to check. Pls, DM your confirmation number for assistance.  *QB https://t.co/6iDGBJAc2m",
+      "@115882 I'm sorry. The earlier flight may not have been available at the time of your scheduled change. *TMT",
+      "@115882 My apologies. If that flight never showed up on your search, that would mean it was full.  *TMT"
+    ]
+  },
+  {
+    "brand": "Tesco",
+    "total_outbound_tweets": 38573,
+    "substantive_replies": 36770,
+    "dm_redirect_replies": 1803,
+    "substantive_ratio": 0.953,
+    "samples": [
+      "@115881 Hi Cade, thanks so much for sending that over. I have sent an email to the Store Manager to look into this for you. 1/2",
+      "@115881 Hi Cade, what was my colleagues name? Can you give a description? When were you in our store? - Nick",
+      "@116114 Hi there, I've replied to your DM about this. Apologies - Josh"
+    ]
+  },
+  {
+    "brand": "AmericanAir",
+    "total_outbound_tweets": 36764,
+    "substantive_replies": 36001,
+    "dm_redirect_replies": 763,
+    "substantive_ratio": 0.979,
+    "samples": [
+      "@115904 We'll be sure to pass along your kind words! #AATeam",
+      "@115904 Our apologies for the delay in responding to you. Have you made it to LAX? Let us know if you still need assistance.",
+      "@115905 Aww, that's definitely a future pilot in the making! #HappyHalloween"
+    ]
+  },
+  {
+    "brand": "TMobileHelp",
+    "total_outbound_tweets": 34317,
+    "substantive_replies": 22679,
+    "dm_redirect_replies": 11638,
+    "substantive_ratio": 0.661,
+    "samples": [
+      "@115910 Hey, Trevor! Send us a DM, and we'll take a closer look! *KellenF",
+      "@115912 @115913 Thanks for getting that DM sent over - I've got it and am replying now. https://t.co/93XwcSKFIy *RayButler",
+      "@115914 Yay for T-Mobile Tuesdays- lets's get you taken care of! Send a DM my way: https://t.co/jGtdfLsVbg *ErikaHoleman"
+    ]
+  },
+  {
+    "brand": "comcastcares",
+    "total_outbound_tweets": 33031,
+    "substantive_replies": 28804,
+    "dm_redirect_replies": 4227,
+    "substantive_ratio": 0.872,
+    "samples": [
+      "@115898 I definitely want to make sure your charges are correct. Please DM me your address and phone# so I can better assist. -SLM",
+      "@115899 address, and phone number so I can assist further with this issue. Thanks! -KW",
+      "@115899 Hi, I'll be happy to look into the text you received and see what I can do to help. Please send a DM with your full name,"
+    ]
+  },
+  {
+    "brand": "British_Airways",
+    "total_outbound_tweets": 29361,
+    "substantive_replies": 26859,
+    "dm_redirect_replies": 2502,
+    "substantive_ratio": 0.915,
+    "samples": [
+      "@115892 caused. We're unable to offer a complimentary upgrade, however we can quote an upgrade if you would like us to? ^Jane 2/2",
+      "@115892 Please can you DM us your booking reference, email address and contact number? We can then look into this for you. Thanks. ^Jane",
+      "@115893 email address and contact telephone number. We'll look into your complaint and contact you for an update 2/2. ^Oliver"
+    ]
+  },
+  {
+    "brand": "SouthwestAir",
+    "total_outbound_tweets": 28977,
+    "substantive_replies": 26576,
+    "dm_redirect_replies": 2401,
+    "substantive_ratio": 0.917,
+    "samples": [
+      "@115925 We're truly sorry to hear that. Please PM us more info so we can followup with you. ^VP",
+      "@115926 Happy HalloWN! Bottoms up, Risa! ^SL",
+      "@115928 We aim to please, Eric! Your love means the world to us, and we can't wait to share the skies with you again soon! ^MK"
+    ]
+  },
+  {
+    "brand": "VirginTrains",
+    "total_outbound_tweets": 27817,
+    "substantive_replies": 27403,
+    "dm_redirect_replies": 414,
+    "substantive_ratio": 0.985,
+    "samples": [
+      "@115919 If you're unhappy with your experience on this call please contact us on our website: https://t.co/rkAZcF6uR3 ^CB",
+      "@115920 You'd need to contact our Aftersales team on 0344 556 5650 from 8am ^CB",
+      "@115919 When amending a ticket the system would show a fare that matches your previous purchase, but this may be higher ^CB"
+    ]
+  }
+]

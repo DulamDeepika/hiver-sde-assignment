@@ -1,0 +1,401 @@
+{
+  "evaluation_dataset": {
+    "path": "C:\\Users\\sindh\\.gemini\\antigravity-ide\\scratch\\hiver-sde-assignment\\evaluation\\golden_set.csv",
+    "total_examples": 200,
+    "intents": [
+      "account_and_security",
+      "billing_and_payment",
+      "damaged_defective_item",
+      "digital_and_devices",
+      "order_status_delivery",
+      "returns_and_refunds",
+      "subscription_and_prime"
+    ],
+    "intent_distribution": {
+      "order_status_delivery": 36,
+      "returns_and_refunds": 30,
+      "billing_and_payment": 28,
+      "account_and_security": 28,
+      "digital_and_devices": 28,
+      "subscription_and_prime": 27,
+      "damaged_defective_item": 23
+    },
+    "handling_distribution": {
+      "AUTO_HANDLE": 136,
+      "ESCALATE": 64
+    }
+  },
+  "metrics_summary": {
+    "baseline_1_majority": {
+      "intent_accuracy": 0.18,
+      "intent_macro_f1": 0.0436,
+      "intent_macro_precision": 0.0257,
+      "intent_macro_recall": 0.1429,
+      "intent_weighted_f1": 0.0549,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          23,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          36,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          27,
+          0,
+          0
+        ]
+      ],
+      "per_intent_metrics": {
+        "account_and_security": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 28
+        },
+        "billing_and_payment": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 28
+        },
+        "damaged_defective_item": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 23
+        },
+        "digital_and_devices": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 28
+        },
+        "order_status_delivery": {
+          "precision": 0.18,
+          "recall": 1.0,
+          "f1": 0.3051,
+          "support": 36
+        },
+        "returns_and_refunds": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 30
+        },
+        "subscription_and_prime": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 27
+        }
+      },
+      "handling_accuracy": 0.68,
+      "escalation_precision": 0.0,
+      "escalation_recall": 0.0,
+      "escalation_f1": 0.0,
+      "auto_handle_precision": 0.68,
+      "auto_handle_recall": 1.0,
+      "auto_handle_f1": 0.8095
+    },
+    "baseline_2_tfidf_lr": {
+      "intent_accuracy": 0.625,
+      "intent_macro_f1": 0.637,
+      "intent_macro_precision": 0.8443,
+      "intent_macro_recall": 0.6045,
+      "intent_weighted_f1": 0.6337,
+      "confusion_matrix": [
+        [
+          11,
+          0,
+          0,
+          0,
+          16,
+          0,
+          1
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          20,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          22,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          34,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          29,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          15,
+          1,
+          10
+        ]
+      ],
+      "per_intent_metrics": {
+        "account_and_security": {
+          "precision": 1.0,
+          "recall": 0.3929,
+          "f1": 0.5641,
+          "support": 28
+        },
+        "billing_and_payment": {
+          "precision": 0.875,
+          "recall": 0.25,
+          "f1": 0.3889,
+          "support": 28
+        },
+        "damaged_defective_item": {
+          "precision": 1.0,
+          "recall": 0.5217,
+          "f1": 0.6857,
+          "support": 23
+        },
+        "digital_and_devices": {
+          "precision": 1.0,
+          "recall": 0.7857,
+          "f1": 0.88,
+          "support": 28
+        },
+        "order_status_delivery": {
+          "precision": 0.3301,
+          "recall": 0.9444,
+          "f1": 0.4892,
+          "support": 36
+        },
+        "returns_and_refunds": {
+          "precision": 0.9355,
+          "recall": 0.9667,
+          "f1": 0.9508,
+          "support": 30
+        },
+        "subscription_and_prime": {
+          "precision": 0.7692,
+          "recall": 0.3704,
+          "f1": 0.5,
+          "support": 27
+        }
+      },
+      "handling_accuracy": 0.66,
+      "escalation_precision": 0.375,
+      "escalation_recall": 0.0938,
+      "escalation_f1": 0.15,
+      "auto_handle_precision": 0.6848,
+      "auto_handle_recall": 0.9265,
+      "auto_handle_f1": 0.7875
+    },
+    "proposed_system": {
+      "intent_accuracy": 0.885,
+      "intent_macro_f1": 0.887,
+      "intent_macro_precision": 0.894,
+      "intent_macro_recall": 0.8869,
+      "intent_weighted_f1": 0.8852,
+      "confusion_matrix": [
+        [
+          22,
+          0,
+          1,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          25,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          20,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          26,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          29,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          25
+        ]
+      ],
+      "per_intent_metrics": {
+        "account_and_security": {
+          "precision": 1.0,
+          "recall": 0.7857,
+          "f1": 0.88,
+          "support": 28
+        },
+        "billing_and_payment": {
+          "precision": 0.9259,
+          "recall": 0.8929,
+          "f1": 0.9091,
+          "support": 28
+        },
+        "damaged_defective_item": {
+          "precision": 0.8,
+          "recall": 0.8696,
+          "f1": 0.8333,
+          "support": 23
+        },
+        "digital_and_devices": {
+          "precision": 1.0,
+          "recall": 0.9286,
+          "f1": 0.963,
+          "support": 28
+        },
+        "order_status_delivery": {
+          "precision": 0.8056,
+          "recall": 0.8056,
+          "f1": 0.8056,
+          "support": 36
+        },
+        "returns_and_refunds": {
+          "precision": 0.8333,
+          "recall": 1.0,
+          "f1": 0.9091,
+          "support": 30
+        },
+        "subscription_and_prime": {
+          "precision": 0.8929,
+          "recall": 0.9259,
+          "f1": 0.9091,
+          "support": 27
+        }
+      },
+      "handling_accuracy": 0.565,
+      "escalation_precision": 0.4207,
+      "escalation_recall": 0.9531,
+      "escalation_f1": 0.5837,
+      "auto_handle_precision": 0.9455,
+      "auto_handle_recall": 0.3824,
+      "auto_handle_f1": 0.5445,
+      "evidence_score_mean": 0.4095,
+      "evidence_score_median": 0.3833
+    }
+  }
+}

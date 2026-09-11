@@ -1,0 +1,24 @@
+{
+  "total_clean_pairs": 72099,
+  "train_corpus_size": 57604,
+  "eval_candidates_size": 14495,
+  "intent_distribution_train": {
+    "order_status_delivery": 50169,
+    "returns_and_refunds": 3115,
+    "digital_and_devices": 1499,
+    "subscription_and_prime": 1058,
+    "damaged_defective_item": 696,
+    "billing_and_payment": 557,
+    "account_and_security": 510
+  },
+  "intent_distribution_eval": {
+    "order_status_delivery": 12637,
+    "returns_and_refunds": 825,
+    "digital_and_devices": 351,
+    "subscription_and_prime": 261,
+    "damaged_defective_item": 153,
+    "account_and_security": 152,
+    "billing_and_payment": 116
+  },
+  "leakage_prevention": "Strict customer_id disjoint partitioning"
+}

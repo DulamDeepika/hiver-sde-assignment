@@ -1,0 +1,19 @@
+{
+  "sample_size": 40,
+  "escalation_appropriateness": {
+    "cohen_kappa": 0.0,
+    "percentage_agreement": 52.5,
+    "human_positive_rate": 1.0,
+    "judge_positive_rate": 0.525
+  },
+  "grounding_score_agreement": {
+    "pearson_correlation": 0.7202,
+    "spearman_correlation": 0.726,
+    "mean_absolute_error": 0.425
+  },
+  "overall_quality_agreement": {
+    "pearson_correlation": 0.5999,
+    "spearman_correlation": 0.5875,
+    "mean_absolute_error": 0.275
+  }
+}
